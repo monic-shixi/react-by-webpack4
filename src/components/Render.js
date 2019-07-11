@@ -19,7 +19,7 @@ class SayTwo extends React.Component {
   }
 
   render(){
-    console.log('say two render')
+    console.log('say two render')K
     return(
       <div>
         <h2>Say Two{this.props.name}</h2>
@@ -57,6 +57,3 @@ class Render extends React.Component {
 
 export default Render
 export const Myrender = Render
-
-// const mr = new Myrender
-// console.log('it is', mr.sayName())

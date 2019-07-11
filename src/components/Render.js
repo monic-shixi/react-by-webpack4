@@ -19,7 +19,7 @@ class SayTwo extends React.Component {
   }
 
   render(){
-    console.log('say two render')K
+    console.log('say two render')
     return(
       <div>
         <h2>Say Two{this.props.name}</h2>
